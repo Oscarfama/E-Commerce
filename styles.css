@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Numans");
 
 :root {
   --primaryColor: #f09d51;
@@ -59,17 +60,19 @@ body {
 
 /* --------------- Hero ---------------- */
 .hero {
-  min-height: calc(100vh - 60px);
+  min-height: calc(80vh - 60px);
   background: url("./images/hero-bcg.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .banner {
-  text-align: center;
-  background: rgba(255, 255, 255, 0.5);
+  text-align: start;
+  background: rgba(255, 255, 255, 0.3);
   display: inline-block;
   padding: 2rem;
+  max-height: 7em;
+  align-items: center;
 }
 .banner-title {
   font-size: 3.4rem;
